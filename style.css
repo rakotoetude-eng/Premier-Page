@@ -1,0 +1,23 @@
+body{
+    background-color: rgb(78, 61, 61);
+}
+h1{
+    font-size: 40px;
+    text-align: center;
+    color: rgb(157, 182, 229);
+    font-style: italic;
+    border: 8px double rgb(34,200,145);
+    border-radius: 15px;
+    background-color: rgb(92, 94, 93);
+    
+}
+
+li:hover{
+    color: rgb(34, 200, 145);
+}
+.name{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.5em;
+    color: rgb(124, 139, 105);
+    text-decoration: none;
+}

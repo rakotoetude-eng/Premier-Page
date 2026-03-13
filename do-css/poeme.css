@@ -81,7 +81,9 @@ h1 {
 
 pre {
   margin-top: 20px;
-  text-align: center;
+  margin: 0 auto;
+  width: fit-content;
+  text-align: left;
   color: var(--text);
   opacity: 0.9;
   font-family: Georgia, 'Times New Roman', Times, serif;
@@ -95,7 +97,7 @@ pre {
 }
 
 .foot-poete {
-  text-align: center;
+  text-align: right;
   color: var(--rose);
   font-style: italic;
   font-size: 1rem;

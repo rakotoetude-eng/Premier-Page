@@ -19,7 +19,6 @@ body{
   display: flex;
   flex-direction: column;
   overflow-x: hidden;
-  margin: 0;
 }
 
 body::before {

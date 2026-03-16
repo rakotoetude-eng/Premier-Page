@@ -100,12 +100,13 @@ nav {
   font-size: 0.65rem;
   font-weight: 400;
   letter-spacing: 0.3em;
-  text-transform: uppercase;
+  text-transform: capitalize;
   color: var(--violet);
   border: 1px solid rgba(124,111,255,0.4);
   border-radius: 100px;
   padding: 0.4rem 1rem;
   margin-bottom: 2rem;
+  background-color: var(--card);
 }
 h1 {
   font-family: 'Playfair Display', serif;

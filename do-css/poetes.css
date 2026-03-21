@@ -1,0 +1,106 @@
+:root {
+  --rose: #e8748a;
+  --night: #4E3D3D;
+  
+}
+
+
+body {
+
+  background-color: var(--night);
+  /*font-family: 'Playfair Display', serif;*/
+  min-height: 100vh;	/* Au moins la hauteur de l'écran */
+  overflow-x: hidden;
+  width: 100%;
+  color: lightblue;
+  text-shadow: 1px 1px 2px black;
+}
+
+h1 {
+ 
+  font-style: italic;
+  color: var(--rose);
+  letter-spacing: 0.05em;
+  text-align: center;
+  padding: 1rem 1rem 1rem;
+  text-shadow: 1px 2px 5px rgba(200,0,200,0.9);
+
+}
+.rep{
+  padding-top: 3px;
+}
+a {
+
+  color: lightblue;
+  text-decoration: none;
+  line-height: 1.6;
+}
+
+a:hover { 
+  transition: 1s;
+  color: var(--rose);
+
+   }
+.lien{
+  margin-bottom: 3px;
+}
+
+ul {
+  padding: 0.1rem 2rem;
+  list-style: none;
+}
+
+li p {margin: 0.1rem 0;}
+
+
+/* ════════════════════════════
+   MOBILE — iPhone & Android
+   (max 480px)
+   ════════════════════════════ */
+@media (max-width: 480px) {
+  h1 {
+
+    font-size: 1.2rem;
+    padding: 0.8rem 0.5rem ;
+    line-height: 1.4;
+  }
+  .rep{
+    padding-top: 1px;
+  }
+  .lien{
+    margin-bottom: 0.5px;
+  }
+  a {
+
+    font-size: 1.2em;
+    line-height: 1.6;
+  }
+
+  ul {padding: 0.6rem 1.2rem;}
+
+  li p {margin: 0.6rem 0;}
+}
+
+/* ════════════════════════════
+   PETITES TABLETTES (481–768px)
+   ════════════════════════════ */
+@media (min-width: 481px) and (max-width: 768px) {
+  h1 { 
+
+    font-size: 1.35rem;
+    padding: 1.8rem 1rem 0.8rem;
+    }
+
+  a { font-size: 1.4em; }
+
+  ul { padding: 1.2rem 1.8rem; }
+}
+
+/* ════════════════════════════
+   TABLETTES (769–1024px)
+   ════════════════════════════ */
+@media (min-width: 769px) and (max-width: 1024px) {
+
+  h1 { font-size: 1.5rem; }
+  a { font-size: 1.5em; }
+}

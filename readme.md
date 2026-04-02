@@ -7,5 +7,5 @@ Site web dédié aux tononkalo malagasy.
 - HTML
 - CSS
 
-## Auteur
+## Auteur 
 Rakotoetude
